@@ -1,0 +1,49 @@
+{% extends 'main.html' %}
+
+{% block title %} Welcome to Online Testing System {% endblock title %}
+{% block top %}
+<a href="{%url 'OTS:registrationForm' %}"> SignUp </a>
+<a href="{%url 'OTS:login' %}">Login</a>
+{% endblock %}
+{% block content %}
+<p class="para">
+    <marquee>Welcome To Online Testing System</marquee>
+</p>
+<div class="bg-img"></div>
+<section>
+    <div class="first">
+        <div class="left">
+            <h1>What is an Online Testing System?</h1>
+            <p>An online Testing system is the complete agenda of an online test that has multiple features and
+                functionalities.
+                The online Testing system uses online exam software through which the tests are created, conducted,
+                and evaluated.
+                This type of Testing system has multiple benefits few of them are that it eliminates the dependency
+                on paper for the question and answer sheets,
+                and eliminates any sort of manual workload which is too much in the case of an offline test.</p>
+            <h1>How does the Online Testing System work?</h1>
+            <p>In Online Testing System the entire steps involved in a paper-based test right from the beginning to
+                the end are digitized with the use of online assessment software.
+                Let’s read how each step is automated with the application of the online exam platform-</p>
+            <h3>Creation of test</h3>
+            <p>The administrator has multiple options to create an online test that is interactive as well as effective.
+                The online test creation platform provides a variety of question types using which a
+                objective, or MCQ-type test can be easily created. Also, the choice of questions can be done from an
+                existing test library or the test creator can create an all-new set of questions by uploading them with
+                just a click.</p>
+            <h3>Conducting of test</h3>
+            <p>Conducting a large-scale test is not an issue when it comes to online tests.
+                Online exam software has the feature to accommodate even a large pool of students at once.
+                The additional feature of “candidate management” increases the feasibility of conducting a test on a
+                large group of candidates in a systematic manner. It allows the test taker to categorize the candidates
+                in their respective groups and at the time of conducting the test,
+                the test taker can assign individual tests to every group, conducting multiple tests at once.</p>
+            <h3>Evaluation of test</h3>
+            <p>The last and most important part of any test is its result,and report. The online Testing
+                system provides a comprehensive report system that is highly accurate and instant. The software can
+                instantly score the test paper according to the marks assigned by the test creator. Later, a test report
+                is generated that provides scores on every subject, section, and question of the test.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

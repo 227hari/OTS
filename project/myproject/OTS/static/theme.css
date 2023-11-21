@@ -1,0 +1,195 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.left h1{
+    color: #78b419;
+    font-size: 35px;
+}
+.left h3{
+    color: #e67e83;
+    font-size: 28px;
+}
+.left p{
+    color: rgb(243, 239, 234);
+    font-size: 25px;
+}
+.userStatus{
+    font-size: 25px;
+}
+.userStatus a{
+    font-size: 22px;
+    color: rgb(17, 110, 190);
+}
+.para{
+    color: aqua;
+    font-size: 30px;
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bgsignupform{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image:  linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(bgsignup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+.bgloginform{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(bglogin.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bghome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(bghome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+body{
+    background-color:rgb(195, 126, 126) ;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(bgque.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.head h1{
+    color: antiquewhite;
+}
+.bgre{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(bgresult.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bgrep{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(bgrep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+.top{
+    height: 50px;
+    background-color: #afd275;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.top div.sitename{
+    display: inline-block;
+    color: #f64c72;
+    position: relative;
+    top: -10px;
+}
+.top div.menu{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.top div.menu a{
+    color: #456705;
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 10px;
+
+}
+.content{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-top: 30px;
+    width: 90%;
+}
+table tr:nth-child(odd){
+    background-color: #456705;
+    color: white;
+    height: 30px;
+}
+table tr:nth-child(even){
+   background-color: #afd275;
+   height: 30px; 
+}
+table tr:first-child{
+    background-color: #f64c72;
+}
+table td{
+    text-align: center;
+}
+h1.hed{
+    color: aliceblue;
+    text-align: center;
+
+}
+h1.head{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+.repo{
+    margin-top: 40px;
+    font-size: 23px;
+    color: whitesmoke
+}
+span.special{
+    color: rgb(169, 187, 139);
+    font-weight: bold;
+}
+#error{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
